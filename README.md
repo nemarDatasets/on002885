@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002885-blue)](https://doi.org/10.82901/nemar.on002885)
+
 This dataset is a part of the data used for the study: 'Kandemir, A.L., Litvak, V., Florin, E., 2020. The comparative performance of DBS artefact rejection methods for MEG recordings, NeuroImage, 2020, https://doi.org/10.1016/j.neuroimage.2020.117057.'
 
 
