@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "DBS Phantom Recordings",
-  "description": "This dataset comprises MEG recordings from a CTF phantom system used to evaluate and compare deep brain stimulation (DBS) artifact rejection methods. The phantom recordings capture stimulation reference signals, movement triggers, and dipole activity to systematically assess the performance of various artifact rejection techniques in MEG data contaminated by DBS-related artifacts.",
-  "methods_description": "MEG recordings were acquired using a CTF phantom system. Stimulation reference signals were captured via EEG001, movement triggers via UPPT001, and dipole activity via HADC006. The dataset was used to evaluate comparative performance of DBS artifact rejection methods.",
+  "description": "This dataset comprises magnetoencephalography (MEG) recordings from a CTF phantom used to evaluate and compare deep brain stimulation (DBS) artifact rejection methods. The phantom recordings serve as a controlled reference for assessing the comparative performance of various artifact rejection techniques in MEG data contaminated by DBS-related artifacts, providing a standardized benchmark for methodological validation.",
+  "methods_description": "MEG phantom recordings were acquired using a CTF system. Stimulation reference signal was captured with EEG001, movement trigger with UPPT001, and dipole activity with HADC006. The dataset includes measurements designed to evaluate DBS artifact rejection methods.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -31,6 +31,9 @@
     },
     {
       "term": "CTF phantom"
+    },
+    {
+      "term": "DBS artifact"
     }
   ],
   "related_identifiers": [
