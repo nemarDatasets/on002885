@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "DBS Phantom Recordings",
+  "description": "This dataset comprises MEG recordings from a CTF phantom system used to evaluate and compare deep brain stimulation (DBS) artifact rejection methods. The phantom recordings capture stimulation reference signals, movement triggers, and dipole activity to systematically assess the performance of various artifact rejection techniques in MEG data contaminated by DBS-related artifacts.",
+  "methods_description": "MEG recordings were acquired using a CTF phantom system. Stimulation reference signals were captured via EEG001, movement triggers via UPPT001, and dipole activity via HADC006. The dataset was used to evaluate comparative performance of DBS artifact rejection methods.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,27 @@
       "orcid": "0000-0001-8276-2508"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds002885.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "deep brain stimulation"
+    },
+    {
+      "term": "artifact rejection"
+    },
+    {
+      "term": "phantom recordings"
+    },
+    {
+      "term": "signal processing"
+    },
+    {
+      "term": "CTF phantom"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1016/j.neuroimage.2020.117057.",
       "identifier_type": "DOI",
@@ -36,6 +53,11 @@
       "identifier": "10.1016/j.neuroimage.2020.117057",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002885.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -49,12 +71,12 @@
       "award_number": "203147/Z/16/Z"
     }
   ],
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "21.5 GB (64 files)"
   ],
   "formats": [
     ".acq",
@@ -76,44 +98,8 @@
     ".res4",
     ".segments",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This dataset comprises MEG phantom recordings used to evaluate and compare deep brain stimulation (DBS) artifact rejection methods. The study systematically assesses the performance of various artifact rejection techniques applied to MEG data contaminated with DBS-related artifacts, providing a standardized benchmark for validating preprocessing approaches in DBS-MEG studies.",
-  "methods_description": "MEG phantom recordings were acquired using a CTF system. Stimulation reference signals were captured via EEG001, movement triggers via UPPT001, and dipole activity via HADC006. The dataset includes measurements designed to evaluate multiple DBS artifact rejection methods.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "deep brain stimulation"
-    },
-    {
-      "term": "DBS"
-    },
-    {
-      "term": "artifact rejection"
-    },
-    {
-      "term": "phantom recordings"
-    },
-    {
-      "term": "signal processing"
-    },
-    {
-      "term": "CTF"
-    },
-    {
-      "term": "benchmark"
-    },
-    {
-      "term": "validation"
-    },
-    {
-      "term": "preprocessing"
-    },
-    {
-      "term": "neuroimaging"
-    }
-  ],
-  "source_hash": "3151f537dc5c53f6098924e83914a72e30d2fb57c8b35ea2381f8889a16b2537"
+  "source_hash": "4bfecc50ad548a9a873442f4938c198d03a22695c04eee9c8345e0514c19faad"
 }
