@@ -1,0 +1,35 @@
+{
+  "version": "2.0",
+  "dataset_id": "on002885",
+  "source": "openneuro",
+  "source_id": "ds002885",
+  "title": "DBS Phantom Recordings",
+  "authors": {
+    "Ahmet Levent Kandemir": {},
+    "Vladimir Litvak": {},
+    "Esther Florin": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds002885.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.2",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Volkswagen Foundation (Lichtenberg program 89387)"
+    }
+  ],
+  "acknowledgements": "EF gratefully acknowledges support by the Volkswagen Foundation (Lichtenberg program 89387). The Wellcome Centre for Human Neuroimaging is supported by core funding from the Wellcome (203147/Z/16/Z). We thank David Bradbury, Peter Aston, Alphonso Reid and Daniel Bates for technical assistance with the phantom recording. The authors would like to thank Johannes Pfeifer, Jan Hirschmann, and Markus Butz for their critical review of the manuscript and fruitful discussions."
+}
