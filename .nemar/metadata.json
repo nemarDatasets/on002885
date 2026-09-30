@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "DBS Phantom Recordings",
-  "description": "This dataset comprises magnetoencephalography (MEG) recordings from a CTF phantom used to evaluate and compare deep brain stimulation (DBS) artifact rejection methods. The phantom recordings serve as a controlled reference for assessing the comparative performance of various artifact rejection techniques in MEG data contaminated by DBS-related artifacts, providing a standardized benchmark for methodological validation.",
-  "methods_description": "MEG phantom recordings were acquired using a CTF system. Stimulation reference signal was captured with EEG001, movement trigger with UPPT001, and dipole activity with HADC006. The dataset includes measurements designed to evaluate DBS artifact rejection methods.",
+  "description": "MEG recordings of a CTF phantom acquired in the presence of deep brain stimulation (DBS) artefacts. The dataset supports evaluation of artefact rejection methods for MEG data contaminated by DBS. It is a subset of the data used in a study comparing the performance of DBS artefact rejection approaches.",
+  "methods_description": "Phantom measurements were performed with a CTF MEG system. The stimulation reference signal was captured on channel EEG001, the movement trigger on UPPT001, and the dipole activity on HADC006. Customized Matlab code for the artefact rejection methods is available in a public GitLab repository.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,37 +18,30 @@
       "term": "MEG"
     },
     {
-      "term": "deep brain stimulation"
+      "term": "Deep Brain Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
     },
     {
-      "term": "artifact rejection"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
     {
-      "term": "phantom recordings"
+      "term": "phantom recording"
     },
     {
-      "term": "signal processing"
-    },
-    {
-      "term": "CTF phantom"
-    },
-    {
-      "term": "DBS artifact"
+      "term": "artefact rejection"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1016/j.neuroimage.2020.117057.",
       "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on002885",
-      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002885",
+      "identifier": "https://github.com/nemarDatasets/on002885",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -61,6 +54,11 @@
       "identifier": "10.18112/openneuro.ds002885.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on002885",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -79,7 +77,7 @@
     "meg"
   ],
   "sizes": [
-    "21.5 GB (64 files)"
+    "20.06 GB (64 files)"
   ],
   "formats": [
     ".acq",
